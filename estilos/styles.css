@@ -1,0 +1,11 @@
+/* comentaria de css */
+header{
+    background-color:rgb(155, 255, 225)
+}
+/*selector por ID*/
+#nombre {
+    color:black;
+    font-size: 1.9em; /* tamaño de fuente */
+    text-align: center;
+    font-weight:500;
+}
