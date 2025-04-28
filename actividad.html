@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad de css</title>
+</head>
+<body>
+    <header>
+        <h1>Practica Inicial de css</h1>
+        <h2>Estructura basica de css</h2>
+    </header>
+    <main>
+        <h3>Ejercicio 1</h3>
+        <p></p>
+        <p>1.1- <i>Hojas de estilo en cascada</i></p>
+        <p></p>
+        <p>1.2- Sirve para presentar un documento a un usuario significa convertirlo en un formulario que el publico pueda utilizar. para interpretarlo se utiliza el programa HTML  </p>
+        <p></p>
+        <p>1.3- Las reglas que cada usuario define que especifican los grupos de estilos que van a aplicarse a elementos particulares o grupos de elementos de la página web</p>
+        <p></p>
+        <p>1.4- <img src="./assets/img/cssimagen.png" alt="Anatomia de css" width="80"></p>
+        <p><strong>Elementos de la regla</strong></p>
+        <dl>
+            <dt>Selector:</dt>
+            <dd>Selecciona el(los) elemento(s) a dar estilo (en este caso, los elementos p ). Para dar estilo a un elemento diferente, solo cambia el selector</dd>
+            <dt>Declaracion</dt>
+            <dd>Aplica las propiedades que queres dar al elemento seleccionado en el Selector.</dd>
+            <dt>Propiedades</dt>
+            <dd>Es lo que te permite dar un estilo a un elemento HTML</dd>
+            <dt>Valor de Propiedad</dt>
+            <dd>Las propiedades deben tener un valor. Cada propiedad tiene valores definidos. Cada valor se ubicara a la derecha</dd>
+            <dt>Es importante que todas las declaraciones terminen con ;</dt>
+        </dl>
+        <p></p>
+        <p>1.5- Un selector es lo que permitira aplicar estilos a elementos específicos de HTML. De esta forma es posible ser preciso al momento de aplicar diseño a un sitio web</p>
+        <p></p>
+        <p>1.6- <strong>Selector</strong></p>
+        <dl>
+            <dt>Selector Universal</dt>
+            <dd>Nos permite aplicar estilos a todos los elementos HTML de un documento y se indica mediante el *</dd>
+            <dt>Selector por Etiquetas</dt>
+            <dd>Aplicamos propiedades CSS a una etiqueta. La misma se identifica sin utilizar "<.>". Por ejemplo</dd>
+            <dt>Selector decendente</dt>
+            <dd>Con este selector seleccionamos un elemento que esta dentro de otro del mismo tipo. Estos seectores siempre estan formados por dos o mas selectores separados entre si. El ultimo selector sera el elemento HTML al que se le aplicara las propiedades de CSS</dd>
+            <dt>Selector de clases</dt>
+            <dd>Los selectores de clases comienzan siempre por un punto. Los clientes web (navegadores) identifican este punto y lo distinguen del resto de los selectores. Para definir en HTML el uso de los selectores de clase, se utiliza el atributo class.<br>Las clases pueden ser utilizadas varias veces y en distintas etiquetas, lo que nos hace pensar que es necesario ver cuales son la características que queremos aplicar a las etiquetas que sean comunes a varias</dd>
+
+        </dl>
+        <p></p>
+        <p>1.7- Procesa el documento en una serie de etapas.</p>
+        <ol>
+            <li>El navegador carga el HTML. pro ejemplo lo recibe la red</li>
+            <li>Convierte el HTML en un DOM <i>(modelo de objetos del documento)</i>. El DOM representa el documento en la memoria del ordenador</li>
+            <li>El navegador va a buscar representa el documento en la memoria del ordenador, y tambien al CSS vinculado</li>
+            <li>El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas segun el tipo de selector. Para cada tipo de selector que encuentre, calcula que reglas deben aplicarse y a que nodos en el DOM se les aplica el estilo segun corresponda (este paso intermedio se llama árbol de renderizacion)</li>
+            <li>El arbol de renderizacion presenta la estructura en que los nodos deben aparecer despues de aplicarles las reglas</li>
+            <li>En la pantalla se muestra el aspecto visual de la página (esta etapa se llama pintura)</li>
+        </ol>
+        <p><img src="./assets/img/procesonave.svg" alt="Diagrama del proceso" width="200"></p>
+
+        <p></p>
+        <p>1.8- Utilizando el atributo "style", utiliando la etiqueta "style" o utilizando un archivo css, es decir, extension css</p>
+        <p></p>
+        <p>1.9-<a href="https://csszengarden.com/204/">primer diseño</a></p>
+        <p><a href="https://csszengarden.com/218/">segundo diseños</a></p>
+        <p>los CSS no son iguales, las eqtiquetas de ambas paginas son iguales, pero su estructura es diferente</p>
+        <p>El HTML puede tener distinto diseños</p>
+
+        <h3>Ejercicio 2</h3>
+        <p>2.0</p>
+
+        <table>
+            <tr>
+                <th>Propiedad</th>
+                <th>Descripcion</th>
+                <th>Valores Posibles</th>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>define el color del texto</td>
+                <td>color: red; <br> color: #009900; <br> color: rgba(34.6 12 64 / 30%);</td>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td>define el color de fondo de un elemento</td>
+                <td>color: black;<br> color: rgb(34 12 64 / 0.6); <br> color: hsl(30 100% 50% / 0.6);</td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>define el tamaño de la fuente del texto</td>
+                <td> font-size: xx-small<br> font-size: 24pt;<br> font-size: 200%; <br> font-size: larger</td>
+            </tr>
+            <tr>
+                <td>font-weight</td>
+                <td>define el grosor de la fuente del texto (por ejemplo, si se trata de texto en negrita o normal)</td>
+                <td>font-weight: normal <br> font-weight: bold; <br> front-weight: bolder; <br> font-weight: lighter; <br> font-weight: 100 a 900;</td>
+            </tr>
+            <tr>
+                <td>font-style</td>
+                <td>define el estilo de la fuente del texto (por ejemplo, si es cursiva o normal)</td>
+                <td>font-style: normal; <br> font-style: italic; <br> font-style: oblique;</td>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td>define el tipo de letra a utilizar para el texto</td>
+                <td>font-family: Times, "Times New Roman", Georgia, serif; <br> font-family: cursive;</td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>define la alineación horizontal del texto (izquierda, centro o derecha)</td>
+                <td>text-align: start; <br> text-align: "." center; <br> text-align: -moz-center;</td>
+            </tr>
+            <tr>
+                <td>text-decoration</td>
+                <td>define la decoración del texto (por ejemplo, si está subrayado o tachado)</td>
+                <td>text-decoration: none; <br> text-decoration: underline red; <br> text-decoration: underline wavy red;</td>
+            </tr>
+            <tr>
+                <td>text-tranform</td>
+                <td>define la transformación del texto (por ejemplo, en mayúsculas o minúsculas)</td>
+                <td>text-transform: capitalize; <br> text-transform: lowercase; <br> text-transform: uppercase;</td>
+            </tr>
+            <tr>
+                <td>letter-spacing</td>
+                <td>define el espacio entre letras</td>
+                <td>letter-spacing: normal; <br> letter-spacing: 0.3em; <br> letter-spacing: revert-layer;</td>
+            </tr>
+            <tr>
+                <td>line-height</td>
+                <td>define la altura de línea del texto</td>
+                <td>line-height: normal; <br> line-height: 3.5; <br> line-height: 3em; <br> line-height: 34%; <br> line-height: unset;</td>
+            </tr>
+        </table>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
