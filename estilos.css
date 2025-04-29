@@ -1,10 +1,71 @@
 /*Estilos para la pagina web*/
-#messias{
-    color:rgba(255, 0, 0, 0.493);
+body{
+    background-color: rgb(146, 136, 104);
+    font-size:16px;
+}
+.parrafo {
+    color:rgb(207, 4, 4);
     font-size:1.5em;
+    text-align:justify;
+    text-transform:capitalize;
+    font-size:24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-#lio{
+.parrafo2 {
     color: rgba(27, 63, 221, 0.788);
     font-size:1.5em;
+}
+
+h1{
+    font-size:29px;
+    color: darkgreen;
+    text-align:center;
+}
+
+h2{
+    color: rgb(223, 223, 223);
+}
+
+.encabezado{
+    text-align: justify;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:42px;
+}
+p a{
+    color:greenyellow;
+    text-decoration: none;
+}
+
+.parrafo3{
+    color:brown;
+}
+.p5{
+    background-color:darkslateblue;
+}
+.p6{
+    font-size:xx-small;
+}
+.p7{
+    font-weight:300;
+}
+.p8{
+    font-style:oblique;
+}
+.p9{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.p10{
+    text-align:center;
+}
+.p11{
+    text-transform:capitalize;
+}
+.p13{
+    letter-spacing:3cap;
+}
+.p14{
+    line-height:300%;
+    background-color:black;
 }
