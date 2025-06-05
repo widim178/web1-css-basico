@@ -1,0 +1,118 @@
+/* footer */
+
+
+footer {
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: solid 0.1em;
+    border-color:gray;
+}
+
+.iconos{
+    width:31px;
+}
+
+.red{
+    display: flex;
+    list-style: none;
+    gap:10px;
+    padding-right: 105px;
+    padding-left: 105px;
+}
+
+.ub{
+    width:20px;
+    padding-left: 11px;
+    padding-right: 9px;
+}
+
+.img-tx img{
+    padding-top: 2px;
+}
+
+.subfooter-container{
+    display: flex;
+}
+
+.img-tx{
+    display: flex;
+    color:white;
+    font-weight: bolder;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.list{
+    list-style: none;
+    text-transform: capitalize;
+    padding: 0px;
+    line-height:47px;
+
+}
+
+a{
+    color:gray;
+    text-decoration:none;
+
+}
+
+.colora{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.botonarre{
+    color:white;
+    font-weight: bolder;
+}
+
+.vertd{
+    text-decoration: underline;
+}
+
+.veinte{
+    color:gray;
+}
+
+.subfooter-container a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.letra {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .whatsappid{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+  
+.whatsappid img{
+    width: 60px;
+}
+
+.img-tx a{
+    padding:0px;
+}
+  
