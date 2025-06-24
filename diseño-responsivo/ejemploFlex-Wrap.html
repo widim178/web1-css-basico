@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .contenedor {
+      display: flex;
+      width: 600px;
+      height: 100px;
+      background-color: #f0f0f0;
+      border: 2px solid black;
+    }
+    .elemento {
+      height: 100%;
+      text-align: center;
+      line-height: 100px;
+      color: white;
+      font-size: 18px;
+    }
+    .elemento1 {
+      background-color: #ff6b6b;
+      flex-grow: 2;
+    }
+    .elemento2 {
+      background-color: #4ecdc4;
+      flex-grow: 4;
+    }
+    .elemento3 {
+      background-color: #45b7d1;
+      flex-grow: 3;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div class="elemento elemento1">Elemento 1</div>
+    <div class="elemento elemento2">Elemento 2</div>
+    <div class="elemento elemento3">Elemento 3</div>
+  </div>
+
+  <!--
+  Analiza el código identificando: contenedor flexbox, tamaño, elementos flex (flex items)
+  ¿cómo es la distribución de los elementos flex (flex items) según los valores de flex-grow?
+      la distribucion es de una linea, lo que pasa es el espacio que ocupa cada elemento con valores flex-grow.
+  ¿qué sucede si el primer elemento tiene un valor de flex-grow en 0?
+      lo que sucede es que no crece y no ocupa un espacio disponible.
+  Modifica los valores para obtener diferentes distribuciones
+
+  -->
+</body>
+</html>

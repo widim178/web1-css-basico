@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ejemplo flex-basis</title>
+   <style>
+       .contenedor {
+           display: flex;
+           flex-wrap: wrap;
+           gap: 10px;
+           background: #f0f0f0;
+           padding: 10px;
+       }
+       .item {
+           background: #6ab6d8;
+           color: white;
+           padding: 20px;
+           text-align: center;
+           border: 2px solid #2e86bb;
+       }
+       .item1 { flex-basis: 100px; }  /* Tamaño inicial de 100px */
+       .item2 { flex-basis: 200px; }  /* Tamaño inicial de 200px */
+       .item3 { flex-basis: auto; }   /* Tamaño según su contenido */
+       .item4 { flex-basis: 100%;}     /* Tamaño al 100% de lo que resta dentro del contenedor */
+   </style>
+</head>
+<body>
+   <div class="contenedor">
+       <div class="item item1">100px</div>
+       <div class="item item2">200px</div>
+       <div class="item item3">Auto (ajusta al contenido)</div>
+       <div class="item item4">Ocupa el resto (100%)</div>
+   </div>
+
+   <!--
+   ¿cuáles son los anchos de cada elemento flex (flex item)?
+      item1 tiene un valor de 100px, item2 tiene un valor de 200px, item3 tiene un valor automatico que ajusta todos los items al contenedor, item4 va a ocupar el 100% del contendor.
+   ¿qué valor de flex-wrap tiene el contenedor?
+      tiene valor nowrap, porque los elementos flex son colocados en una linea.
+   ¿qué sucede si el valor de flex-wrap es wrap?
+      lo que sucede es que los elementos flex se colocan en varias lineas, cuando se ajusta.
+ 
+   -->
+</body>
+</html>

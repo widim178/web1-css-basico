@@ -1,0 +1,36 @@
+
+.container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: rgb(0, 255, 21);
+}
+
+.elementos{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 0, 248);
+    width: 200px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.elementos a{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+}
+
+.container-section{
+    
+}
+
+@media screen and (width >= 768px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+
